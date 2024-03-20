@@ -1,0 +1,25 @@
+/* Write your code here: 
+Group Rule*/
+h1, h2 {
+    color: blueviolet;
+}
+
+/*child rule */
+.box > p {
+color: firebrick;
+}
+
+/*Descendent*/
+.box ul {
+    color: blue;
+}
+
+/* Chained */
+li.done{
+    color: seagreen
+}
+
+/* Multiple Combiners */
+ul p.done{
+    font-size: 0.5rem;
+}
